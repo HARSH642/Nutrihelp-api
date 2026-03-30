@@ -1,6 +1,6 @@
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const logLoginEvent = require("../Monitor_&_Logging/loginLogger");
+const logLoginEvent = require("../monitoring-logging/loginLogger");
 const getUserCredentials = require("../model/getUserCredentials.js");
 const { addMfaToken, verifyMfaToken } = require("../model/addMfaToken.js");
 const nodemailer = require("nodemailer");

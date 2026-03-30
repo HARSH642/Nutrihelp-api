@@ -4,7 +4,7 @@ let addUser = require('../model/addUser.js');
 const { validationResult } = require('express-validator');
 const { registerValidation } = require('../validators/signupValidator.js');
 // const supabase = require('../dbConnection');
-const logLoginEvent = require("../Monitor_&_Logging/loginLogger");
+const logLoginEvent = require("../monitoring-Logging/loginLogger");
 const supabase = require("../database/supabaseClient");
 const { createClient } = require("@supabase/supabase-js");
 
