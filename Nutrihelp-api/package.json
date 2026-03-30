@@ -43,10 +43,11 @@
     "node-fetch": "^3.3.2",
     "nodemailer": "^8.0.2",
     "nutrihelp-api": "file:",
+    "response-time": "^2.3.4",
     "sinon": "^18.0.0",
     "swagger-ui-express": "^5.0.0",
     "twilio": "^5.9.0",
-    "uuid": "^13.0.0",
+    "uuid": "^8.3.2",
     "winston-daily-rotate-file": "^5.0.0",
     "yamljs": "^0.3.0"
   },
